@@ -33,44 +33,45 @@ export default function Index (){
 const style = StyleSheet.create({
     texto:{
         fontSize: 26,
-        color: "black",
+        color: "#1F1F1F",
         fontFamily: "fira sans",
-        marginTop: 10
+        textAlign: "center"
     },
 
     textobot:{
-        fontSize: 26,
-        color: "black",
+        fontSize: 22,
+        color: "#FFFFFF",
         fontFamily: "fira sans",
+        textAlign:"center"
     },
 
     subtexto:{
         fontSize: 20,
-        color:"black",
+        color:"#555555",
         fontFamily: "roboto",
-        marginBottom: 15,
     },
 
     botao:{
-        backgroundColor: "gray",
+        backgroundColor: "#E56700",
         borderRadius: 10,
-        width: "30%",
+        width: "80%",
         height: 52,
         alignItems:"center",
-        padding: 10,
-        marginTop: 5
+        justifyContent: "center",
     },
 
     corpo:{
         justifyContent:"center",
-        textAlign: "center",
         alignItems: "center",
-        flex: 1
+        flex: 1,
+        padding: 20,
+        gap: 15,
+        backgroundColor: "#FFF4E6"
     },
 
     imagem:{
-        width: 300,
-        height: 300,
+        width: 200,
+        height: 200,
         borderRadius: 500
     }
 }

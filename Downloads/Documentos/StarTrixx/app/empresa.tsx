@@ -24,42 +24,46 @@ export default function Index (){
 const style = StyleSheet.create({
     texto:{
         fontSize: 26,
-        color: "black",
+        color: "#1F1F1F",
         fontFamily: "fira sans"
     },
 
     textobot:{
         fontSize: 26,
-        color: "black",
+        color: "#FFFFFF",
         fontFamily: "fira sans",
-        marginTop: 10
+
     },
 
     descricao:{
-        fontSize:18,
+        fontSize: 18,
         textAlign:"center",
-        fontFamily: "roboto"
+        fontFamily: "roboto",
+        color:"#555555"
     },
 
     botao:{
-        backgroundColor: "gray",
+        backgroundColor: "#E56700",
         borderRadius: 10,
-        width: "20%",
+        width: "80%",
         height: 52,
-        alignItems:"center"
+        alignItems:"center",
+        justifyContent: "center"
     },
 
     corpo:{
         justifyContent:"center",
         textAlign: "center",
         alignItems: "center",
-        gap: 16,
-        flex: 1
+        gap: 15,
+        flex: 1,
+        padding: 20,
+        backgroundColor:"#FFE8CC"
     },
 
     imagem:{
-        width: 300,
-        height: 300,
+        width: 200,
+        height: 200,
         borderRadius: 500
     }
 })
