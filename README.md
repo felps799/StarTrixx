@@ -1,0 +1,1 @@
+O projeto StarTrixx é uma startup fícticia para auxiliar na aprendizagem em React Native!
